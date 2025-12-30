@@ -1,7 +1,6 @@
 # Comprehensive qPCR Analysis Pipeline in R
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-*(Note: Replace XXXXXXX with your actual Zenodo DOI number after publishing)*
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18098319.svg)](https://doi.org/10.5281/zenodo.18098319)
 
 ## Overview
 This repository hosts a robust, automated R pipeline designed for the rigorous analysis of Quantitative Real-Time PCR (qPCR) data. Tailored for molecular biology research, this tool streamlines the workflow from raw $C_t$ values to high-resolution, publication-ready figures.
