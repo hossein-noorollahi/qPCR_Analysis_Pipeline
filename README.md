@@ -21,12 +21,6 @@ The script relies on the **Livak ($2^{-\Delta\Delta C_t}$)** method for normaliz
     *   **Individual Gene Plots:** Auto-generated separate plots for detailed inspection.
 
 ## Getting Started
-
-### Prerequisites
-You need **R** (version 4.0+) and the following packages:
-```r
-install.packages(c("tidyverse", "ggrepel", "RColorBrewer", "scales", "gridExtra"))
-
 ## Output Examples
 
 The pipeline automatically generates a suite of high-resolution figures. Below are samples created from the included demo data.
@@ -37,6 +31,16 @@ The pipeline automatically generates a suite of high-resolution figures. Below a
 ### Expression Heatmap
 ![Heatmap with Significance Markers](output_examples/Heatmap_Expression.png)
 
+### Volcano Plot
+![Volcano Plot for Treatment A](output_examples/Volcano_Treat_A.png)
+
+---
+
+The script also generates a full statistical report in CSV format (`qPCR_Detailed_Analysis.csv`) and a dedicated folder (`Individual_Gene_Plots/`) containing a separate plot for each gene.
+### Prerequisites
+You need **R** (version 4.0+) and the following packages:
+```r
+install.packages(c("tidyverse", "ggrepel", "RColorBrewer", "scales", "gridExtra"))
 ### Volcano Plot
 ![Volcano Plot for Treatment A](output_examples/Volcano_Treat_A.png)
 
