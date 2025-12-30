@@ -1,4 +1,3 @@
-```markdown
 # Comprehensive qPCR Analysis Pipeline in R
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
@@ -27,7 +26,6 @@ The script relies on the **Livak ($2^{-\Delta\Delta C_t}$)** method for normaliz
 You need **R** (version 4.0+) and the following packages:
 ```r
 install.packages(c("tidyverse", "ggrepel", "RColorBrewer", "scales", "gridExtra"))
-```
 
 ### Usage
 1.  **Clone the repository:**
