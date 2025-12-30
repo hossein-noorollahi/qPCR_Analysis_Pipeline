@@ -26,3 +26,20 @@ The script relies on the **Livak ($2^{-\Delta\Delta C_t}$)** method for normaliz
 You need **R** (version 4.0+) and the following packages:
 ```r
 install.packages(c("tidyverse", "ggrepel", "RColorBrewer", "scales", "gridExtra"))
+
+## Output Examples
+
+The pipeline automatically generates a suite of high-resolution figures. Below are samples created from the included demo data.
+
+### Global Expression Profile
+![Global Bar Plot of Gene Expression](output_examples/Global_Expression_Profile.png)
+
+### Expression Heatmap
+![Heatmap with Significance Markers](output_examples/Heatmap_Expression.png)
+
+### Volcano Plot
+![Volcano Plot for Treatment A](output_examples/Volcano_Treat_A.png)
+
+---
+
+The script also generates a full statistical report in CSV format (`qPCR_Detailed_Analysis.csv`) and a dedicated folder (`Individual_Gene_Plots/`) containing a separate plot for each gene.

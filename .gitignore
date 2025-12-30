@@ -1,7 +1,7 @@
 .Rproj.user
 .Rhistory
 .RData
-*.png
+# *.png  <-- Allow PNG files in specific folders for examples
 *.pdf
 *.csv
 Individual_Gene_Plots/
