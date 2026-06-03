@@ -1,17 +1,22 @@
-cff-version: 1.2.0
+cff-version: 1.1.0
+title: "Advanced qPCR Analysis Pipeline: A Reproducible R Framework for Automated Gene Expression Quantification and Visualization"
 message: "If you use this software, please cite it as below."
+type: software
 authors:
-- family-names: "Noorollahi"
-  given-names: "Hossein"
-  affiliation: "Ph.D. Candidate in Molecular Genetics"
-title: "Advanced qPCR Analysis Pipeline in R"
-version: 1.0.0
-date-released: 2025-12-30
+  - family-names: Noorollahi
+    given-names: Hossein
+    orcid: "https://orcid.org/0000-0001-5685-8821"
+version: "v1.1.0"
+doi: "10.5281/zenodo.20528637"
+date-released: "2026-06-03"
 url: "https://github.com/hossein-noorollahi/qPCR_Analysis_Pipeline"
+license: MIT
 keywords:
   - qPCR
-  - Gene Expression
-  - R Script
-  - Livak Method
-  - Bioinformatics
-license: MIT
+  - gene expression
+  - Livak method
+  - R
+  - bioinformatics
+  - real-time PCR
+  - volcano plot
+  - molecular biology
