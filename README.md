@@ -1,27 +1,32 @@
-# Comprehensive qPCR Analysis Pipeline in R
+# Advanced qPCR Analysis Pipeline 🧬
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18098319.svg)](https://doi.org/10.5281/zenodo.18098319)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
-This repository hosts a robust, automated R pipeline designed for the rigorous analysis of Quantitative Real-Time PCR (qPCR) data. Tailored for molecular biology research, this tool streamlines the workflow from raw $C_t$ values to high-resolution, publication-ready figures.
+An automated, highly reproducible R framework designed to streamline the analysis of Quantitative Real-Time PCR (qPCR) data using the comparative Ct (Livak, 2^-ddCt) method.
 
-The script relies on the **Livak ($2^{-\Delta\Delta C_t}$)** method for normalization and incorporates **Welch's t-test** (unequal variances) to ensure statistical reliability.
+**Lead Developer:** Hossein Noorollahi
 
-## Key Features
-*   **Flexible Data Input:** Accepts raw data in standard CSV format (Demo data included).
-*   **Statistical Rigor:** 
-    *   Calculates Fold Change & log2 Fold Change.
-    *   Performs Welch's t-test for statistical significance ($p$-values).
-    *   Computes 95% Confidence Intervals (CI) for error estimation.
-*   **Publication-Quality Visualization:**
-    *   Global Bar Plots: High-contrast profiles with error bars.
-    *   Volcano Plots: Dynamic thresholding for Up/Down-regulated genes.
-    *   Heatmaps: Expression gradients with significance markers.
-    *   Individual Gene Plots: Auto-generated separate plots for detailed inspection.
+## ✨ Key Features
+- **Automated Data Parsing:** Directly reads raw CSV outputs.
+- **Robust Statistics:** Applies Welch's t-test for unequal variances and calculates 95% Confidence Intervals.
+- **Publication-Ready Visualizations:** Automatically generates high-resolution Heatmaps, Volcano Plots, and Global Bar Plots.
 
-## Getting Started
+## 📊 Sample Outputs
 
-### Prerequisites
-You need **R** (version 4.0+) and the following packages:
-```r
-install.packages(c("tidyverse", "ggrepel", "RColorBrewer", "scales", "gridExtra"))
+### 1. Expression Heatmap
+*(A clear overview of up/down-regulated genes across all treatments with statistical significance labels).*
+![Heatmap](Heatmap_Expression.png)
+
+### 2. Volcano Plot
+*(Dynamic thresholding for clear visualization of significantly dysregulated targets).*
+![Volcano Plot](Volcano_Treat_A.png)
+
+## 🚀 How to Use
+1. Clone this repository or download the script.
+2. Place your raw data in a file named `dummy_qPCR_data.csv` (or edit the filename in the script).
+3. Format: `Sample, Target, Ct` (3 columns).
+4. Run the R script!
+
+## 📜 License
+This software is distributed under the [MIT License](LICENSE).
