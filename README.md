@@ -20,7 +20,7 @@ An automated, highly reproducible R framework designed to streamline the analysi
 
 ### 2. Volcano Plot
 *(Dynamic thresholding for clear visualization of significantly dysregulated targets).*
-![Volcano Plot](Volcano_Treat_A.png)
+![Volcano Plot](Volcano_Treat_B.png)
 
 ## 🚀 How to Use
 1. Clone this repository or download the script.
