@@ -1,6 +1,6 @@
 # Advanced qPCR Analysis Pipeline 🧬
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18098319.svg)](https://doi.org/10.5281/zenodo.18098319)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18098318.svg)](https://doi.org/10.5281/zenodo.18098318)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An automated, highly reproducible R framework designed to streamline the analysis of Quantitative Real-Time PCR (qPCR) data using the comparative Ct (Livak, 2^-ddCt) method.
